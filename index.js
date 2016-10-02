@@ -2,8 +2,6 @@ var postcss = require('postcss');
 var btoa = require('btoa');
 
 module.exports = postcss.plugin('postcss-encode-base64-inlined-images', function (opts) {
-    opts = opts || {};
-
     return function (css, result) {
         css.walkDecls('background-image', function (decl) {
             decl.value = decl.value.replace(/url\(["']data/g, 'url(data');

@@ -1,6 +1,6 @@
 {
   "name": "postcss-encode-base64-inlined-images",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin encode with base64 inlined images",
   "keywords": [
     "postcss",
@@ -11,7 +11,7 @@
   ],
   "author": "Afonso F <afonso.franca@gmail.com>",
   "license": "MIT",
-  "repository": "afonsof/postcss-encode-base64-inlined-images",
+  "repository": "https://github.com/afonsof/postcss-encode-base64-inlined-images",
   "bugs": {
     "url": "https://github.com/afonsof/postcss-encode-base64-inlined-images/issues"
   },
